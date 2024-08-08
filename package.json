@@ -1,0 +1,13 @@
+{
+  "name": "mern-project",
+  "version": "1.0.0",
+  "description": "Goalsetter app",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon backend/server.js"
+  },
+  "author": "sreenadh",
+  "license": "ISC"
+}
