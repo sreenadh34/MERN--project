@@ -9,5 +9,8 @@
     "start": "nodemon backend/server.js"
   },
   "author": "sreenadh",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express-async-handler": "^1.2.0"
+  }
 }
