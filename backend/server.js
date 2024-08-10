@@ -4,6 +4,7 @@ import dotenv from 'dotenv';
 import { errorHandler } from "../middleware/errorMiddleware.js";
 import connectDB from "./config/db.js";
 import goalsRouter from "./routes/goalsRoutes.js";
+import userRouter from "./routes/userRoutes.js"
 
 dotenv.config();
 
@@ -16,6 +17,7 @@ app.use(express.json());  // Parses incoming JSON requests
 app.use(express.urlencoded({ extended: false })); // Parses incoming URL-encoded form data
 
 app.use("/api/goals", goalsRouter);
+app.use("/api/users", userRouter);
 
 app.use(errorHandler);
 
