@@ -1,7 +1,7 @@
 import express from "express";
 import colors from "colors";
 import dotenv from 'dotenv';
-import { errorHandler } from "../middleware/errorMiddleware.js";
+import { errorHandler } from "./middleware/errorMiddleware.js";
 import connectDB from "./config/db.js";
 import goalsRouter from "./routes/goalsRoutes.js";
 import userRouter from "./routes/userRoutes.js"
